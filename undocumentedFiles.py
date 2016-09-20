@@ -21,7 +21,7 @@ from glob import glob
 
 if __name__ == '__main__':
     print('--- undocumented files:')
-    for fn in glob('*.py'):
+    for fn in glob('*.jpg'):
         loc = {}
         try:
             if PY3:
